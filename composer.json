@@ -11,14 +11,16 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "musickr",
-            "email": "13458043813@163.com"
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.1.0",
         "topthink/framework": "^6.0.0",
-        "topthink/think-orm": "^2.0"
+        "topthink/think-orm": "^2.0",
+        "lcobucci/jwt": "^3.3",
+        "topthink/think-multi-app": "^1.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",
